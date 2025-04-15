@@ -1,0 +1,8 @@
+LOAD DATA 
+INFILE 'dept.csv'
+INTO TABLE dept
+FIELDS terminated BY ','
+OPTIONALLY ENCLOSED BY '"'
+(
+        DEPTNO,DNAME,LOC
+)

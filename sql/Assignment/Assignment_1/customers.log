@@ -1,0 +1,54 @@
+
+SQL*Loader: Release 10.2.0.1.0 - Production on Fri Oct 25 03:45:00 2024
+
+Copyright (c) 1982, 2005, Oracle.  All rights reserved.
+
+Control File:   customers.ctl
+Data File:      customers.csv
+  Bad File:     customers.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table CUSTOMERS, loaded from every logical record.
+Insert option in effect for this table: INSERT
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+CNUM                                FIRST     *   ,  O(") CHARACTER            
+CNAME                                NEXT     *   ,  O(") CHARACTER            
+CITY                                 NEXT     *   ,  O(") CHARACTER            
+RATING                               NEXT     *   ,  O(") CHARACTER            
+SNUM                                 NEXT     *   ,  O(") CHARACTER            
+
+Record 1: Rejected - Error on table CUSTOMERS, column CNUM.
+ORA-01722: invalid number
+
+
+Table CUSTOMERS:
+  7 Rows successfully loaded.
+  1 Row not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                  82560 bytes(64 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:             8
+Total logical records rejected:         1
+Total logical records discarded:        0
+
+Run began on Fri Oct 25 03:45:00 2024
+Run ended on Fri Oct 25 03:45:00 2024
+
+Elapsed time was:     00:00:00.08
+CPU time was:         00:00:00.03

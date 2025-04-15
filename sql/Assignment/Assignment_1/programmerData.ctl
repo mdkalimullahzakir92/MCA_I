@@ -1,0 +1,9 @@
+LOAD DATA
+INFILE 'programmerData.csv'
+INTO TABLE programmer
+FIELDS TERMINATED BY ',' 
+
+(
+    PNAME,DOB,DOJ,SEX,PROF1,PROF2,SAL
+
+)

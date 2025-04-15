@@ -1,0 +1,27 @@
+Test case:
+Enter 1 for finding area
+Enter 2 for finding factorial
+Enter 0 for exit
+1
+Enter 1 for circle area
+Enter 2 for rectangle area
+Enter 3 for triangle area
+1
+Enter radius:  4.9
+Area of circle= 75.42963961269095
+Enter 1 for finding area
+Enter 2 for finding factorial
+Enter 0 for exit
+3
+Invalid choice
+Enter 1 for finding area
+Enter 2 for finding factorial
+Enter 0 for exit
+2
+Enter a number to find factorial
+100
+Factorial of 100is 93326215443944152681699238856266700490715968264381621468592963895217599993229915608941463976156518286253697920827223758251185210916864000000000000000000000000
+Enter 1 for finding area
+Enter 2 for finding factorial
+Enter 0 for exit
+0

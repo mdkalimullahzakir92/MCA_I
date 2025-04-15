@@ -1,0 +1,28 @@
+question 11
+------------
+___________
+
+ create table emp (ENAME varchar2(15), ECITY varchar2(15), SALARY number(10,2), ENUMBER int primary key ,EADDRESS varchar2(20), DEPTTNAME varchar2(20));
+SQL> create table company (CNAME varchar2(15),CCITY varchar2(15), EMPNUMBER int references emp(enumber) on delete cascade);
+
+a) create view empView as select ename, ecity from emp;
+b) update empview set ecity='Delhi' where ename='John';
+
+1 row updated.
+
+SQL> select *from empview;
+
+ENAME           ECITY
+--------------- ----------
+Alice           New York
+Bob             Chicago
+John            Delhi
+Eve             Miami
+
+
+c)create view join_view as select e.ename, e.salary, e.depttname, c.cname, c.ccity from emp e join company c on c.empnumber = e.enumber;
+
+View created.
+d) update join_view set salary=salary+10000 where DEPTTNAME='IT';
+err: cannot modify a column which maps to a non key-preserved table
+

@@ -1,0 +1,55 @@
+
+SQL*Loader: Release 10.2.0.1.0 - Production on Fri Oct 25 22:23:00 2024
+
+Copyright (c) 1982, 2005, Oracle.  All rights reserved.
+
+Control File:   company.ctl
+Data File:      company.csv
+  Bad File:     company.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table COMPANY, loaded from every logical record.
+Insert option in effect for this table: INSERT
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+CNAME                               FIRST     *   ,  O(") CHARACTER            
+CCITY                                NEXT     *   ,  O(") CHARACTER            
+EMPNUMBER                            NEXT     *   ,  O(") CHARACTER            
+
+Record 1: Rejected - Error on table COMPANY, column EMPNUMBER.
+ORA-01722: invalid number
+
+Record 4: Rejected - Error on table COMPANY.
+ORA-02291: integrity constraint (SYSTEM.SYS_C004107) violated - parent key not found
+
+
+Table COMPANY:
+  4 Rows successfully loaded.
+  2 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                  49536 bytes(64 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:             6
+Total logical records rejected:         2
+Total logical records discarded:        0
+
+Run began on Fri Oct 25 22:23:00 2024
+Run ended on Fri Oct 25 22:23:00 2024
+
+Elapsed time was:     00:00:00.08
+CPU time was:         00:00:00.01

@@ -1,0 +1,55 @@
+
+SQL*Loader: Release 10.2.0.1.0 - Production on Mon Oct 21 00:05:54 2024
+
+Copyright (c) 1982, 2005, Oracle.  All rights reserved.
+
+Control File:   software.ctl
+Data File:      software.csv
+  Bad File:     software.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table SOFTWARE, loaded from every logical record.
+Insert option in effect for this table: INSERT
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+PNAME                               FIRST     *   ,  O(") CHARACTER            
+TITLE                                NEXT     *   ,  O(") CHARACTER            
+DEVIN                                NEXT     *   ,  O(") CHARACTER            
+SCOST                                NEXT     *   ,  O(") CHARACTER            
+DCOST                                NEXT     *   ,  O(") CHARACTER            
+SOLD                                 NEXT     *   ,  O(") CHARACTER            
+
+Record 1: Rejected - Error on table SOFTWARE, column SCOST.
+ORA-01722: invalid number
+
+
+Table SOFTWARE:
+  27 Rows successfully loaded.
+  1 Row not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                  99072 bytes(64 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:            28
+Total logical records rejected:         1
+Total logical records discarded:        0
+
+Run began on Mon Oct 21 00:05:54 2024
+Run ended on Mon Oct 21 00:05:54 2024
+
+Elapsed time was:     00:00:00.09
+CPU time was:         00:00:00.00

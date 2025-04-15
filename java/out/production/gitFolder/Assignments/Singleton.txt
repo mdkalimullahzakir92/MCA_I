@@ -1,0 +1,12 @@
+Test case:
+------------
+Create new owner? yes
+Enter name: Hamid
+Successfully registered.
+Create new owner? yes
+Enter name: Zaid
+Successfully registered.
+Create new owner? no
+Name of owner: Zaid
+Name of owner: Zaid
+Number of objects: 1

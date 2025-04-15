@@ -1,0 +1,53 @@
+
+SQL*Loader: Release 10.2.0.1.0 - Production on Fri Oct 25 03:27:38 2024
+
+Copyright (c) 1982, 2005, Oracle.  All rights reserved.
+
+Control File:   salesman.ctl
+Data File:      salesman.csv
+  Bad File:     salesman.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table SALESMAN, loaded from every logical record.
+Insert option in effect for this table: INSERT
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+SNUM                                FIRST     *   ,  O(") CHARACTER            
+SNAME                                NEXT     *   ,  O(") CHARACTER            
+CITY                                 NEXT     *   ,  O(") CHARACTER            
+COMMISSION                           NEXT     *   ,  O(") CHARACTER            
+
+Record 1: Rejected - Error on table SALESMAN, column SNUM.
+ORA-01722: invalid number
+
+
+Table SALESMAN:
+  5 Rows successfully loaded.
+  1 Row not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                  66048 bytes(64 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:             6
+Total logical records rejected:         1
+Total logical records discarded:        0
+
+Run began on Fri Oct 25 03:27:38 2024
+Run ended on Fri Oct 25 03:27:38 2024
+
+Elapsed time was:     00:00:00.19
+CPU time was:         00:00:00.01

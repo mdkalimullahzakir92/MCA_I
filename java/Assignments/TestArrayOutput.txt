@@ -1,0 +1,48 @@
+Test Case:
+----------
+
+Enter your choice:
+1 add item
+2 get item
+3 search item
+4 remove
+5 display array
+0 exit
+>> 1
+Enter item to add: 20
+Item added successfully.
+Enter your choice:
+>> 2
+Enter index to get item: 0
+item : 20
+Enter your choice:
+>> 2
+Enter index to get item: 1
+item : null
+Enter your choice:
+>> 1
+Enter item to add: 25
+Item added successfully.
+Enter your choice:
+>> 1
+Enter item to add: 42
+Item added successfully.
+Enter your choice:
+>> 3
+Enter item to search: 25
+Item found at index 1
+Enter your choice:
+>> 4
+Enter item to remove: 42
+Item removed successfully.
+Enter your choice:
+>> 1
+Enter item to add: 15
+Item added successfully.
+Enter your choice:
+>> 5
+[ 20, 25, 15 ]
+Enter your choice:
+>> 0
+
+

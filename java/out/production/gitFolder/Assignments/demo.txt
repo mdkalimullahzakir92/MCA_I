@@ -1,0 +1,14 @@
+Enter account number.   101
+Enter PIN   1
+Welcome!
+Press 1 for deposit
+Press 2 for withdraw
+Press 3 for check bal
+Press 4 for view details
+Press 0 for exit
+Exception in thread "main" java.lang.NumberFormatException: For input string: ""
+        at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+        at java.base/java.lang.Integer.parseInt(Integer.java:678)
+        at java.base/java.lang.Integer.parseInt(Integer.java:786)
+        at Demo.main(Demo.java:88)
+PS E:\HAIDER\MCA\gitRepository\Assignments>

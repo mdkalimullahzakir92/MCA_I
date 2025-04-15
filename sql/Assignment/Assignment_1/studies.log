@@ -1,0 +1,54 @@
+
+SQL*Loader: Release 10.2.0.1.0 - Production on Sat Oct 19 08:55:26 2024
+
+Copyright (c) 1982, 2005, Oracle.  All rights reserved.
+
+Control File:   studies.ctl
+Data File:      studies.csv
+  Bad File:     studies.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table STUDIES, loaded from every logical record.
+Insert option in effect for this table: INSERT
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+PNAME                               FIRST     *   ,       CHARACTER            
+SPLACE                               NEXT     *   ,       CHARACTER            
+COURSE                               NEXT     *   ,       CHARACTER            
+CCOST                                NEXT     *   ,       CHARACTER            
+
+Record 1: Rejected - Error on table STUDIES, column CCOST.
+ORA-01722: invalid number
+
+
+Table STUDIES:
+  10 Rows successfully loaded.
+  1 Row not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                  66048 bytes(64 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:            11
+Total logical records rejected:         1
+Total logical records discarded:        0
+
+Run began on Sat Oct 19 08:55:26 2024
+Run ended on Sat Oct 19 08:55:26 2024
+
+Elapsed time was:     00:00:00.06
+CPU time was:         00:00:00.03

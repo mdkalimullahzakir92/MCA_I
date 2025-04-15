@@ -1,0 +1,1 @@
+to open folder in vs code -> open folder in terminal then type-> code . -> press enter

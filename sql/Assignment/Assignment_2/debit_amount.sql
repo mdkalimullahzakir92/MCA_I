@@ -1,0 +1,22 @@
+/*
+ACCOUN NAME              BAL
+------ ---------- ----------
+AC001  Abdullah          600
+AC002  Khalid            600
+AC003  Shakir           5800
+*/
+DECLARE
+    ACC_NO VARCHAR2(6):= '&ACCOUNT_NO';
+    DEBIT_AMT NUMBER(8,2) := 2000;
+    MIN_BAL CONSTANT NUMBER(5,2) :=500;
+    ACC_BAL NUMBER(10,2) ;
+BEGIN
+    SELECT BAL INTO ACC_BAL FROM ACCOUNT WHERE ACCOUNT_ID = ACC_NO;
+    ACC_BAL := ACC_BAL-DEBIT_AMT;
+    IF ACC_BAL >= MIN_BAL then
+        update ACCOUNT SET BAL = ACC_BAL WHERE ACCOUNT_ID=ACC_NO;
+    ELSE 
+        DBMS_OUTPUT.PUT_LINE('NOT SUFFICIENT BALANCE');
+    END IF;
+END;
+/

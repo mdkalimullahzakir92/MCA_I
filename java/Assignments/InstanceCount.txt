@@ -1,0 +1,78 @@
+Test case 1:
+------------
+Do you want to register a student?
+yes
+Enter id: 2024001
+Enter name: Jamshed
+Enter course: MBA
+Enter phone: 9807654567
+Enter address: Delhi
+Do you want to register a student?
+YES
+Enter id: 2024002
+Enter name: Hamid
+Enter course: MCA
+Enter phone: 9809876543
+Enter address: Gaya
+Do you want to register a student?
+Yes
+Enter id: 2024003
+Enter name: Sahil
+Enter course: MCA
+Enter phone: 9000987890
+Enter address: Jharkhand
+Do you want to register a student?
+y
+Enter id: 2024004
+Enter name: Sonu
+Enter course: MSc
+Enter phone: 7890654323
+Enter address: Delhi
+Do you want to register a student?
+no
+----------------------------------
+Number of students registered: 4
+
+Do you want to view students details?
+Yes
+Details of registered students:
+Name: Jamshed
+Student Id: 2024001
+Course: MBA
+address: Delhi
+Contact No: 9807654567
+
+Name: Hamid
+Student Id: 2024002
+Course: MCA
+address: Gaya
+Contact No: 9809876543
+
+Name: Sahil
+Student Id: 2024003
+Course: MCA
+address: Jharkhand
+Contact No: 9000987890
+
+Name: Sonu
+Student Id: 2024004
+Course: MSc
+address: Delhi
+Contact No: 7890654323
+
+Test case 2:
+------------
+Do you want to register a student?
+YES
+Enter id: 2024003
+Enter name: Golu
+Enter course: Bsc Phy  
+Enter phone: 9898980000
+Enter address: Jharkhand
+Do you want to register a student?
+No
+----------------------------------
+Number of students registered: 1
+
+Do you want to view students details?
+No

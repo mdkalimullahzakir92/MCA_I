@@ -1,0 +1,57 @@
+
+SQL*Loader: Release 10.2.0.1.0 - Production on Thu Oct 24 12:10:50 2024
+
+Copyright (c) 1982, 2005, Oracle.  All rights reserved.
+
+Control File:   employee.ctl
+Data File:      employee2.csv
+  Bad File:     employee2.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table EMPLOYEE, loaded from every logical record.
+Insert option in effect for this table: INSERT
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+EMPNO                               FIRST     *   ,  O(") CHARACTER            
+ENAME                                NEXT     *   ,  O(") CHARACTER            
+JOB                                  NEXT     *   ,  O(") CHARACTER            
+MGR                                  NEXT     *   ,  O(") CHARACTER            
+HIREDATE                             NEXT     *   ,  O(") CHARACTER            
+SAL                                  NEXT     *   ,  O(") CHARACTER            
+COMM                                 NEXT     *   ,  O(") CHARACTER            
+DEPTNO                               NEXT     *   ,  O(") CHARACTER            
+
+Record 1: Rejected - Error on table EMPLOYEE, column EMPNO.
+ORA-01722: invalid number
+
+
+Table EMPLOYEE:
+  13 Rows successfully loaded.
+  1 Row not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 132096 bytes(64 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:            14
+Total logical records rejected:         1
+Total logical records discarded:        0
+
+Run began on Thu Oct 24 12:10:50 2024
+Run ended on Thu Oct 24 12:10:50 2024
+
+Elapsed time was:     00:00:00.13
+CPU time was:         00:00:00.06

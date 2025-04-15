@@ -1,0 +1,33 @@
+
+SQL*Loader: Release 10.2.0.1.0 - Production on Fri Oct 18 23:17:42 2024
+
+Copyright (c) 1982, 2005, Oracle.  All rights reserved.
+
+Control File:   programmerData.ctl
+Data File:      programmerData.csv
+  Bad File:     programmerData.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table PROGRAMMER, loaded from every logical record.
+Insert option in effect for this table: INSERT
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+PNAME                               FIRST     *   ,  O(") CHARACTER            
+DOB                                  NEXT     *   ,  O(") CHARACTER            
+DOJ                                  NEXT     *   ,  O(") CHARACTER            
+SEX                                  NEXT     *   ,  O(") CHARACTER            
+PROF1                                NEXT     *   ,  O(") CHARACTER            
+PROF2                                NEXT     *   ,  O(") CHARACTER            
+SAL                                  NEXT     *   ,  O(") CHARACTER            
+
+SQL*Loader-601: For INSERT option, table must be empty.  Error on table PROGRAMMER

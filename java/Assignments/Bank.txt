@@ -1,0 +1,214 @@
+Test Case 1:
+_____________________________
+
+------HOME---------
+Enter 1 to create a new Account.
+Enter 2 for login Account.
+Enter 0 for exit.
+1
+Enter the following details:
+The symbol * reperesents mandatory field.
+*first Name Danish
+*Last Name Alam
+*Address Batla House
+*City
+Adhar Number
+PAN number
+*PIN 1233
+
+Error! Please enter mandatory details.
+
+Enter the following details:
+The symbol * reperesents mandatory field.
+*first Name Danish
+*Last Name Alam
+*Address Batla House
+*City New Delhi
+Adhar Number
+PAN number
+*PIN 1233
+Account created successfully. Your account no is:       101
+
+------HOME---------
+Enter 1 to create a new Account.
+Enter 2 for login Account.
+Enter 0 for exit.
+0
+_____________________________
+_____________________________
+
+Test Case 2:
+_____________________________
+------HOME---------
+Enter 1 to create a new Account.
+Enter 2 for login Account.
+Enter 0 for exit.
+1
+Enter the following details:
+The symbol * reperesents mandatory field.
+*first Name Danish
+*Last Name Alam
+*Address Batla House
+*City New Delhi
+Adhar Number 987678989009
+PAN number 
+*PIN 1234
+Account created successfully. Your account no is:       101
+
+------HOME---------
+Enter 1 to create a new Account.
+Enter 2 for login Account.
+Enter 0 for exit.
+1
+Enter the following details:
+The symbol * reperesents mandatory field.
+*first Name Sohail
+*Last Name Khan
+*Address Shaheen Bagh
+*City New Delhi
+Adhar Number 
+PAN number 
+*PIN 1111
+Account created successfully. Your account no is:       102
+
+------HOME---------
+Enter 1 to create a new Account.
+Enter 2 for login Account.
+Enter 0 for exit.
+2
+Enter account number      101
+Enter pin     101
+Authentication failed! Invalid Account Number/PIN.
+
+------HOME---------
+Enter 1 to create a new Account.
+Enter 2 for login Account.
+Enter 0 for exit.
+2
+Enter account number      101
+Enter pin     1234
+
+--------Welcome--------
+Press 1 for deposit
+Press 2 for withdraw
+Press 3 for check bal
+Press 4 for View details
+Press 5 for transfer
+Press 0 for logout
+1
+Enter amount    5000.00
+Amount deposited successfully.
+
+Press 1 for deposit
+Press 2 for withdraw
+Press 3 for check bal
+Press 4 for View details
+Press 5 for transfer
+Press 0 for logout
+3
+Your balance is rupees 5000.0
+
+Press 1 for deposit
+Press 2 for withdraw
+Press 3 for check bal
+Press 4 for View details
+Press 5 for transfer
+Press 0 for logout
+2
+Enter amount    1200
+Amount withdrawn successfully.
+
+Press 1 for deposit
+Press 2 for withdraw
+Press 3 for check bal
+Press 4 for View details
+Press 5 for transfer
+Press 0 for logout
+3
+Your balance is rupees 3800.0
+
+Press 1 for deposit
+Press 2 for withdraw
+Press 3 for check bal
+Press 4 for View details
+Press 5 for transfer
+Press 0 for logout
+4
+
+------------------------
+Account No:101
+Name: Danish Alam
+Address: Batla House, New Delhi
+Adhar Number: 987678989009
+PAN number:
+------------------------
+
+Press 1 for deposit
+Press 2 for withdraw
+Press 3 for check bal
+Press 4 for View details
+Press 5 for transfer
+Press 0 for logout
+5
+Enter the recipient account number   104
+Enter amount    2000
+Invalid recipient account number!
+Press 1 for deposit
+Press 2 for withdraw
+Press 3 for check bal
+Press 4 for View details
+Press 5 for transfer
+Press 0 for logout
+5
+Enter the recipient account number   102
+Enter amount    2000
+Amount of rupees 2000.0 has been transferred to account no 102 successfully.
+
+Press 1 for deposit
+Press 2 for withdraw
+Press 3 for check bal
+Press 4 for View details
+Press 5 for transfer
+Press 0 for logout
+8
+Invalid choice
+Press 1 for deposit
+Press 2 for withdraw
+Press 3 for check bal
+Press 4 for View details
+Press 5 for transfer
+Press 0 for logout
+0
+
+------HOME---------
+Enter 1 to create a new Account.
+Enter 2 for login Account.
+Enter 0 for exit.
+2
+Enter account number      102
+Enter pin     1111
+
+--------Welcome--------
+Press 1 for deposit
+Press 2 for withdraw
+Press 3 for check bal
+Press 4 for View details
+Press 5 for transfer
+Press 0 for logout
+3
+Your balance is rupees 2000.0
+
+Press 1 for deposit
+Press 2 for withdraw
+Press 3 for check bal
+Press 4 for View details
+Press 5 for transfer
+Press 0 for logout
+0
+
+------HOME---------
+Enter 1 to create a new Account.
+Enter 2 for login Account.
+Enter 0 for exit.
+0
+_____________________________

@@ -1,0 +1,102 @@
+Test Case
+----------
+
+Enter Username and password of 10 MCA students 
+-----------------------------------------------------
+
+Enter username: Hamid
+Enter Password: 1234
+Enter username: Danish
+Enter Password: 9870
+Enter username: Khalid
+Enter Password: 9909
+Enter username: Bilal
+Enter Password: 7890
+Enter username: Jawed
+Enter Password: 90989
+Enter username: Gulshan
+Enter Password: 90000io
+Enter username: Tarique
+Enter Password: nji9
+Enter username: Saif
+Enter Password: lkjh
+Enter username: Zeeshan  
+Enter Password: poiuy0987
+Enter username: Golu
+Enter Password: abc098
+
+Enter Username and password of 10 MSC AI/ML students
+-----------------------------------------------------
+
+Enter username: Kalim
+Enter Password: 7890
+Enter username: Ali
+Enter Password: oiuy789065
+Enter username: Sariya 
+Enter Password: poi09
+Enter username: Guddan
+Enter Password: 3456tg
+Enter username: Malik
+Enter Password: 09890p
+Enter username: Misbah
+Enter Password: 234rty
+Enter username: Dilshad
+Enter Password: 098ik
+Enter username: Piyush  
+Enter Password: 234545
+Enter username: Zaki
+Enter Password: bhgv9807
+Enter username: Mbashshir
+Enter Password: 9099uui
+
+Displaying MCA students details
+_______________________________
+
+Bilal : 7890
+Danish : 9870
+Golu : abc098
+Gulshan : 90000io
+Hamid : 1234
+Jawed : 90989
+Khalid : 9909
+Saif : lkjh
+Tarique : nji9
+Zeeshan : poiuy0987
+
+Displaying MSC AI/ML students details
+_____________________________________
+
+Ali : oiuy789065
+Dilshad : 098ik
+Guddan : 3456tg
+Kalim : 7890
+Malik : 09890p
+Mbashshir : 9099uui
+Misbah : 234rty
+Piyush : 234545
+Sariya : poi09
+Zaki : bhgv9807
+
+Merged List:
+____________
+
+Ali : oiuy789065
+Bilal : 7890
+Danish : 9870
+Dilshad : 098ik
+Golu : abc098
+Guddan : 3456tg
+Gulshan : 90000io
+Hamid : 1234
+Jawed : 90989
+Kalim : 7890
+Khalid : 9909
+Malik : 09890p
+Mbashshir : 9099uui
+Misbah : 234rty
+Piyush : 234545
+Saif : lkjh
+Sariya : poi09
+Tarique : nji9
+Zaki : bhgv9807
+Zeeshan : poiuy0987

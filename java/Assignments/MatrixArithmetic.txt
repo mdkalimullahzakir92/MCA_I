@@ -1,0 +1,117 @@
+TEST CASE 1:
+Enter the size of the square matrix:  3
+First matrix:
+0       1       1
+0       0       1
+1       1       1
+Second matrix:
+0       1       0
+1       0       1
+1       0       1
+Press 1 for add
+Press 2 for subtract
+Press 3 for multiply
+Press 0 for exit
+Enter your choice: 2
+Difference of matrices: 
+0       0       1
+-1      0       0
+0       1       0
+Enter your choice: 1
+Sum of matrices:
+0       2       1
+1       0       2
+2       1       2
+Enter your choice: 3
+Product of matrices:
+3       0       2
+2       1       1
+3       1       3
+Enter your choice: 0
+
+TEST CASE 2:
+Enter the size of the square matrix:  three
+invalid input! Please input integer number as size.
+
+TEST CASE 3:
+Enter the size of the square matrix:  -3
+Size of the array cannot be negative
+
+TEST CASE 4:
+Enter the size of the square matrix:  2
+First matrix:
+0       0
+1       1
+Second matrix:
+1       0
+1       0
+Press 1 for add
+Press 2 for subtract
+Press 3 for multiply
+Press 0 for exit
+Enter your choice: p
+Invalid input!
+
+TEST CASE 5:
+Enter the size of the square matrix:  4
+First matrix:
+0       1       1       0
+0       1       1       0
+0       1       1       0
+1       0       1       0
+Second matrix:
+0       0       1       0
+0       0       0       0
+0       0       1       1
+0       0       0       1
+Press 1 for add
+Press 2 for subtract
+Press 3 for multiply
+Press 0 for exit
+Enter your choice: -2
+Invalid choice! Please try again.
+Enter your choice: 5
+Invalid choice! Please try again.
+Enter your choice: 2
+Difference of matrices:
+0       1       0       0
+0       1       1       0
+0       1       0       -1
+1       0       1       -1
+Enter your choice: 0
+
+TEST CASE 6:
+Enter the size of the square matrix:  7
+First matrix:
+1       1       1       0       1       0       0
+1       0       1       1       0       0       0
+1       0       1       1       1       1       0
+1       1       1       0       1       0       1
+0       1       0       0       0       1       0
+1       1       0       0       0       0       0
+1       1       1       1       0       1       1
+Second matrix:
+0       1       1       0       0       0       0
+1       0       1       1       0       1       0
+1       1       0       1       1       1       1
+0       0       0       0       0       1       1
+1       0       0       1       0       1       0
+1       0       1       0       1       0       0
+1       0       1       1       0       1       0
+Press 1 for add
+Press 2 for subtract
+Press 3 for multiply
+Press 0 for exit
+Enter your choice: 3
+Product of matrices:
+3       3       2       3       2       4       1
+2       2       2       2       2       3       2
+3       2       2       3       2       3       3
+4       2       4       4       1       5       1
+2       1       2       1       1       2       1
+1       2       2       2       1       1       1
+5       2       4       4       2       5       3
+Enter your choice: -2
+Invalid choice! Please try again.
+Enter your choice: d
+Invalid input!
